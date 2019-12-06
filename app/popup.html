@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        body {
+            height: 200px;
+            width: 200px;
+            padding: 20px;
+        }
+
+        input { 
+            height: 20px;
+            width: 98%; 
+            margin-bottom: 20px;
+            
+            background: none;
+            color: #222222;
+            font-size: 18px;
+            padding: 10px 10px 10px 5px;
+            display: block;
+            width: $width;
+            border: none;
+            border-radius: 0;
+            border-bottom: 1px solid #c6c6c6;
+        }
+        
+        button {
+            height: 40px;
+            width: 100%;
+            outline: none;
+            margin-bottom: 20px;
+
+            background: #2196F3;
+            color: #d3eafd;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            text-decoration: none;
+            outline: none;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+        }
+      </style>
+    </head>
+    <body>
+      <div id="app-hook"></div>
+      <h2> SeedQuest </h2>
+      <input id="password_id" placeholder="password"></div>
+
+      <button id="button_password"> Export </button>
+      <button id="button_set_password"> Import </button>
+
+      <script src="popup.js"></script>
+    </body>
+  </html>
